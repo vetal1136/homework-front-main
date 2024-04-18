@@ -6,7 +6,7 @@ type ButtonPropsType = {
 export const Button = (props: ButtonPropsType) => {
   const callBackHandler = () => {
     // НУЖНО ДОПИСАТЬ
-    props.callBack
+    props.callBack()
   };
 
   return (
